@@ -1,0 +1,22 @@
+name = "cloudflare-worker-secure"
+compatibility_date = "2024-09-02"
+# compatibility_flags = [ "nodejs_compat" ]
+
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "flags"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
